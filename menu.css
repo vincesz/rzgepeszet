@@ -1,0 +1,65 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+body {
+    background-color: black;
+}
+#images {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+#fb {
+    height: 40px;
+    margin-left: 5px;
+}
+#ig {
+    height: 40px;
+    margin-right: 2px;
+}
+section#images {
+    align-items: center;
+    margin: auto;
+    display: block;
+    justify-content: space-between;
+}
+ul {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+ul#menu {
+    border-top: 2px solid white;
+    width: 75%;
+}
+#genbrun {
+    width: 100px;
+    margin-left: 52px;
+}
+h1 {
+    color: white;
+    margin: 15vw 0px;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3.5px;
+}
+h2 {
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-right: 30px;
+    margin-top: 20px;
+    float: right;
+}
+a {
+    text-decoration: none;
+}
+@media only screen and (min-width: 426px) {
+    h1 {
+        margin: 100px 0px;
+    }
+}

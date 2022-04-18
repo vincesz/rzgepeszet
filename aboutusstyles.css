@@ -1,0 +1,281 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+header {
+    background-color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+	overflow-y: hidden;
+}
+img#genbrun-logo {
+    width: 90px;
+    display: flex;
+    float: left;
+    margin-left: 10px;
+}
+img#burger-menu {
+    width: 50px;
+    height: 50px;
+    display: block;
+    float: right;
+    margin-right: 10px;
+}
+#menu-nav {
+	display: flex;
+	justify-content: space-between;
+	float: right;
+	margin-right: 3vw;
+	display: none;
+}
+.menunav {
+	color: black;
+	text-decoration: none;
+	margin: 5px;
+	font-family: sans-serif;
+}
+
+
+
+section#aboutus{
+    text-align: center;
+    color:black;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+}
+
+
+
+
+
+section.infoblock{
+   
+    text-align: left;
+    width:80%;
+    padding:40px;
+    padding-top: 0px;
+    
+}
+
+section.infoblock>img{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+section.infoblock>#pimg{
+   padding-top: 5px;
+   margin-top: 5px;
+}
+
+section.infoblock>h2{
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 27px;
+}
+
+section.infoblock>p{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+
+#map{
+    margin:auto;
+}
+
+.subhead {
+    left: 100px;
+}
+
+.link {
+    color: black;
+    text-decoration: underline;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.menunav {
+	display: flex;
+	justify-content: space-between;
+	float: right;
+	margin-right: 3vw;
+	display: none;
+}
+.menunav {
+	color: black;
+	text-decoration: none;
+	margin: 5px;
+	font-family: sans-serif;
+}
+
+
+/*footer starts*/
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    font-size: 10px;
+	
+}
+section#footer {
+	margin: auto;
+	display: flex;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	justify-content: space-between;
+}
+section#left {
+	margin-top: 10px;
+	margin-left: 20px;
+	float: left;
+	max-width: 200px;
+}
+section#right {
+	margin-top: 10px;
+	float: right;
+	margin-left: -20px;
+}
+section#logos {
+    padding: 45.5px 10px;
+    align-items: center;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	margin-right: 10px;
+	margin-left: 10px;
+    
+}
+#ig {
+    min-width: 30px;
+    height: 30px;
+    
+}
+#fb {
+    height: 30px;
+	min-width: 15px;
+    margin-left: 6px;
+}
+
+/*main starts*/
+
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.flexbox > div {
+    font-family: "Myriad Pro SemiCondensed";
+    color: black;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}   
+
+.ember {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.artic {
+    font-size: 23px;
+}
+.mobile-img {
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+/*.maradj {
+     object-fit: contain;
+}*/
+
+/*Laptop*/
+@media only screen and (min-width: 426px) {
+    img#genbrun-logo {
+		margin-left: 3vw;
+	}
+	img#burger-menu {
+		display: none;
+	}
+	#menu-nav {
+		display: flex;
+	}
+    .menunav {
+        display: flex;
+    }
+	section#footer {
+		font-size: 15px;
+		padding: 10px;
+		padding-bottom: 15px;
+	}
+	section#left {
+		margin-right: 8vw;
+	}
+	section#logos {
+		margin-left: 5vw;
+
+	}
+
+    section.infoblock{
+        display: none;
+
+    }
+
+    .imgdiv1{
+        width:50%;
+    }
+
+    .imgdiv2{
+        width:50%
+    }
+
+    section.desktop{
+        padding:50px
+    }
+
+    .artic{
+        font-size: 20px;
+        padding-top: 20px;
+        width:500px;
+
+    }
+
+    .pdiv{
+        
+        align-self: center;
+    }
+
+    .ember{
+        font-size: 30px;
+        
+    }
+
+    section#aboutus{
+        font-size: 40px;
+    }
+
+
+}
+
+@media only screen and (max-width: 426px) {
+
+    section.desktop{
+        display: none;
+    }
+
+    
+ }

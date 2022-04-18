@@ -1,0 +1,222 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+/* Header */
+header {
+    height: 70px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    overflow-y: hidden;
+}
+img#genbrun-logo {
+    width: 80px;
+    display: flex;
+    float: left;
+    margin-left: 10px;
+}
+img#burger-menu {
+    width: 50px;
+    height: 50px;
+    display: block;
+    float: right;
+    margin-right: 10px;
+}
+/* Desktop Header */
+#menu-nav {
+	display: flex;
+	justify-content: space-between;
+	float: right;
+	margin-right: 3vw;
+	display: none;
+}
+.menunav {
+	color: white;
+	text-decoration: none;
+	margin: 5px;
+	font-family: sans-serif;
+}
+#header-desktop {
+    display: none;
+    height: 70px;
+    width: auto;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    overflow-y: hidden;
+}
+/* Desktop Header End */
+/* End Header */
+
+/* Hero Image */
+main {
+    background-image: url(images/splashmobile.png);
+    height: 500px;
+    background-position: center;
+    text-align: center;
+    color: white;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+#txt {
+    margin: 120px 0px;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+#find-us { /* Button */
+    width: 250px;
+}
+/* Hero Image End */
+#new-arrivals-graphic {
+    width: 85vw;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+}
+#ig-feed {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ig-pictures {
+    width: 170px;
+    margin: 5px;
+}
+.flex {
+    padding: 20px;
+}
+.flexcontainer {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+p.flexcontainer {
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+}
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    font-size: 10px;
+	
+}
+section#footer {
+	margin: auto;
+	display: flex;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	justify-content: space-between;
+}
+section#left {
+	margin-top: 10px;
+	margin-left: 20px;
+	float: left;
+	max-width: 200px;
+}
+section#right {
+	margin-top: 10px;
+	float: right;
+	margin-left: -20px;
+}
+section#logos {
+    padding: 45.5px 10px;
+    align-items: center;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	margin-right: 10px;
+	margin-left: 10px;
+    overflow-x: visible;
+}
+#ig {
+    min-width: 30px;
+    height: 30px;
+    
+}
+#fb {
+    height: 30px;
+	min-width: 15px;
+    margin-left: 6px;
+}
+/* End Footer */
+@media only screen and (min-width: 426px) {
+    header {
+        height: 0;
+    }
+	img#genbrun-logo {
+		margin-left: 3vw;
+        width: 100px;
+	}
+	img#burger-menu {
+		margin-right: 3vw;
+        display: none;
+	}
+    #menu-nav {
+		display: flex;
+	}
+    .menunav {
+        color: white;
+    }
+    #header-desktop {
+        position: relative;
+        top: 15px;
+        display: flex;
+        z-index: 1;
+    }
+    main {
+        background-image: url(images/splash.jpg);
+        background-size: cover;
+        background-position: top;
+        height: 1000px;
+        position: relative;
+        top: -70px;
+    }
+    #txt {
+        justify-items: space-around;
+        margin-top: 600px;
+    }
+    #find-us {
+        margin: 10px;
+    }
+    
+    .flexcontainer {
+        margin: 10px;
+    }
+	section#footer {
+		font-size: 15px;
+		padding: 10px;
+		padding-bottom: 15px;
+	}
+	section#left {
+		margin-right: 8vw;
+	}
+	section#logos {
+		margin-left: 5vw;
+	}
+    .ig-pictures:hover {
+        opacity: 0.7;
+        transition-timing-function: ease;
+        transition-duration: 0.2s;
+    }
+    
+}
